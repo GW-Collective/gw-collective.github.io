@@ -1,0 +1,12 @@
+<svg width="640" height="800" viewBox="0 0 640 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="800" fill="#E5D7BD"/>
+  <rect x="38" y="38" width="564" height="724" rx="20" fill="#FBF8F0" stroke="#213246" stroke-width="4"/>
+  <circle cx="320" cy="280" r="112" fill="#D9B38C"/>
+  <path d="M186 616C186 530.948 254.948 462 340 462H300C385.052 462 454 530.948 454 616V650H186V616Z" fill="#7A2D24"/>
+  <path d="M226 278C226 231.608 263.608 194 310 194H334C380.392 194 418 231.608 418 278V308C418 354.392 380.392 392 334 392H310C263.608 392 226 354.392 226 308V278Z" fill="#D9B692"/>
+  <path d="M234 250C234 204.712 270.712 168 316 168H328C373.288 168 410 204.712 410 250V286H234V250Z" fill="#4B5667"/>
+  <path d="M264 214C286.667 193.333 307.333 183 326 183C344.667 183 364.667 193 386 213" stroke="#4B5667" stroke-width="12" stroke-linecap="round"/>
+  <rect x="150" y="84" width="340" height="58" rx="12" fill="#213246"/>
+  <text x="320" y="121" text-anchor="middle" fill="#F7F2E9" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">WEISS</text>
+  <text x="320" y="713" text-anchor="middle" fill="#213246" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">EXECUTIVE IMAGE RESERVED</text>
+</svg>

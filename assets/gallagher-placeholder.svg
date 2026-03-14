@@ -1,0 +1,12 @@
+<svg width="640" height="800" viewBox="0 0 640 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="800" fill="#E9DDC6"/>
+  <rect x="38" y="38" width="564" height="724" rx="20" fill="#F9F5EC" stroke="#213246" stroke-width="4"/>
+  <circle cx="320" cy="280" r="112" fill="#D2B48C"/>
+  <path d="M194 612C194 528.053 262.053 460 346 460H294C377.947 460 446 528.053 446 612V648H194V612Z" fill="#8E3E34"/>
+  <path d="M224 278C224 231.608 261.608 194 308 194H332C378.392 194 416 231.608 416 278V308C416 354.392 378.392 392 332 392H308C261.608 392 224 354.392 224 308V278Z" fill="#D8BA95"/>
+  <path d="M236 252C236 207.831 271.831 172 316 172H324C368.169 172 404 207.831 404 252V278H236V252Z" fill="#213246"/>
+  <path d="M270 210C291.333 197.333 306 191 314 191C331.333 191 352 200.333 376 219" stroke="#213246" stroke-width="12" stroke-linecap="round"/>
+  <rect x="134" y="84" width="372" height="58" rx="12" fill="#213246"/>
+  <text x="320" y="121" text-anchor="middle" fill="#F7F2E9" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">GALLAGHER</text>
+  <text x="320" y="713" text-anchor="middle" fill="#213246" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">OFFICIAL PORTRAIT PENDING</text>
+</svg>

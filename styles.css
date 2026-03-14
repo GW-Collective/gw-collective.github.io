@@ -1,0 +1,396 @@
+:root {
+  --bg: #2e3440;
+  --bg-alt: #3b4252;
+  --panel: #3b4252;
+  --panel-strong: #434c5e;
+  --panel-soft: #4c566a;
+  --panel-deep: #2e3440;
+  --ink: #eceff4;
+  --ink-soft: #d8dee9;
+  --line: #4c566a;
+  --frost-blue: #5e81ac;
+  --accent: #88c0d0;
+  --accent-strong: #81a1c1;
+  --accent-warm: #ebcb8b;
+  --accent-dark: #8fbcbb;
+  --shadow: #2e3440;
+  --max-width: 1520px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top, var(--frost-blue) 0%, var(--bg) 32rem),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 55%, var(--panel-strong) 100%);
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.page-shell {
+  width: calc(100% - 2rem);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 0 1.5rem;
+}
+
+.hero,
+.section-intro,
+.leadership,
+.site-footer {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.hero {
+  padding: 1.75rem 1.25rem 1.25rem;
+}
+
+.hero-main {
+  display: block;
+}
+
+.hero-copy,
+.section-intro,
+.section-heading,
+.profile-copy {
+  display: block;
+}
+
+.hero-copy {
+  max-width: 50rem;
+}
+
+.eyebrow,
+.section-tag,
+.panel-label,
+.profile-role {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--panel-strong);
+  color: var(--accent-dark);
+}
+
+.section-tag,
+.panel-label,
+.profile-role {
+  color: var(--accent-dark);
+}
+
+.wordmark {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 0.86;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.wordmark-subtitle {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero-copy h1,
+.section-intro h2,
+.section-heading h2,
+.profile-copy h3 {
+  margin: 0 0 1rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+  line-height: 1.1;
+}
+
+.hero-copy h1 {
+  margin-top: 0.35rem;
+  margin-bottom: 0.85rem;
+  font-size: 2.55rem;
+  max-width: 11ch;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.lede,
+.section-intro p,
+.section-heading p,
+.profile-copy p,
+.site-footer p,
+.site-footer span,
+.stats-list {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
+.lede {
+  max-width: 42rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.hero-panel {
+  margin-top: 1.25rem;
+  padding: 0.9rem;
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.75rem;
+}
+
+.stats-list li + li {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.stat-value {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.45rem;
+  color: var(--ink);
+}
+
+.section-intro,
+.leadership,
+.site-footer {
+  margin-top: 1.25rem;
+  padding: 1.55rem 1.25rem 1.15rem;
+}
+
+.section-intro h2,
+.section-heading h2 {
+  font-size: 1.8rem;
+}
+
+.section-intro p:last-child,
+.section-heading p {
+  max-width: 64ch;
+}
+
+.profile-grid {
+  margin-top: 1.2rem;
+}
+
+.profile-card {
+  padding: 0.9rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+}
+
+.profile-card + .profile-card {
+  margin-top: 1rem;
+}
+
+.portrait-frame {
+  margin-bottom: 0.85rem;
+  border: 1px solid var(--line);
+  background: var(--panel-soft);
+}
+
+.portrait-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-copy h3 {
+  font-size: 1.55rem;
+}
+
+.site-footer {
+  display: block;
+  background: var(--bg-alt);
+}
+
+.site-footer span {
+  display: block;
+  margin-top: 0.4rem;
+}
+
+@media (min-width: 720px) {
+  .page-shell {
+    width: calc(100% - 3rem);
+    padding-top: 1rem;
+  }
+
+  .hero,
+  .section-intro,
+  .leadership,
+  .site-footer {
+    padding: 1.85rem 1.5rem 1.35rem;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 2.15fr) minmax(300px, 0.8fr);
+    gap: 1.75rem;
+    align-items: start;
+  }
+
+  .hero-main {
+    grid-column: 1;
+    min-width: 0;
+  }
+
+  .hero-panel {
+    grid-column: 2;
+    margin-top: 0;
+  }
+
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+
+  .profile-card + .profile-card {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 980px) {
+  .page-shell {
+    width: calc(100% - 3rem);
+    min-height: 100vh;
+    display: grid;
+    align-content: start;
+    gap: 0.85rem;
+  }
+
+  .wordmark {
+    font-size: 6.4rem;
+  }
+
+  .wordmark-subtitle {
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+  }
+
+  .hero-copy h1 {
+    font-size: 4.35rem;
+    max-width: 12ch;
+    margin-bottom: 0.85rem;
+  }
+
+  .section-intro h2,
+  .section-heading h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero,
+  .section-intro,
+  .leadership,
+  .site-footer {
+    margin-top: 0;
+  }
+
+  .section-intro {
+    padding-top: 1.35rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-intro p:last-child,
+  .section-heading p,
+  .profile-copy p,
+  .stats-list {
+    font-size: 0.98rem;
+    line-height: 1.62;
+  }
+
+  .leadership {
+    padding-top: 1.35rem;
+    padding-bottom: 1rem;
+  }
+
+  .profile-card {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 1.1rem;
+    align-items: start;
+  }
+
+  .portrait-frame {
+    margin-bottom: 0;
+  }
+
+  .site-footer {
+    padding-top: 1.15rem;
+    padding-bottom: 0.95rem;
+  }
+}
+
+.hero,
+.section-intro,
+.leadership,
+.site-footer,
+.profile-card,
+.hero-panel,
+.portrait-frame,
+.eyebrow {
+  border-radius: 0;
+}
+
+.hero::before,
+.section-intro::before,
+.leadership::before,
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background:
+    linear-gradient(
+      90deg,
+      var(--frost-blue) 0%,
+      var(--accent-strong) 50%,
+      var(--accent) 100%
+    );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
